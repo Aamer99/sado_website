@@ -32,6 +32,7 @@ function LiveDemo() {
               loop
               muted
               style={{ padding: "20" }}
+              className="liveDemo"
             />
           </Grid>
         </Grid>

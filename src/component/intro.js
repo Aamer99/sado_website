@@ -21,7 +21,7 @@ function Intro() {
         style={{ padding: "20px" }}
       >
         <Grow in={true} timeout={1000}>
-          <img src={sadoLogo} width={100} height={100} alt="sado Logo" />
+          <img src={sadoLogo} alt="sado Logo" className="sadoLogo" />
         </Grow>
       </Grid>
 
@@ -34,7 +34,8 @@ function Intro() {
         <Grid md={6} xs={12}>
           <Slide direction="right" in={true} timeout={2000}>
             <h1
-              style={{ fontFamily: "Aboreto", fontSize: 80, color: "#e6c397" }}
+              // style={{ fontFamily: "Aboreto", fontSize: 80, color: "#e6c397" }}
+              className="tittle"
             >
               Sado <br />
               Restaurant

@@ -7,10 +7,24 @@
   color: white;
   font-size: 50px;
 }
+.tittle{
+  font-family:Aboreto;
+  font-size: 80px;
+  color: #e6c397;
+}
 .sectionDescription{
   color: #e6c397;
   font-family: EB Garamond;
   font-size: 25px;
+}
+
+.cartScreenImage{
+  width: 500px;
+  height: 500px;
+}
+.sadoLogo{
+  width: 100px;
+  height: 100px;
 }
 .GithubIcon{
   color: white;
@@ -38,13 +52,30 @@
     display: none;
   }
   .images{
-    width: 280px;
-    height: 280px;
+    width: 200px;
+    height: 200px;
+  }
+  .cartScreenImage{
+    width: 200px;
+    height: 200px;
   }
   .sectionTitle{
     font-size: 40px;
   }
   .sectionDescription{
     font-size: 20px;
+  }
+  .sadoLogo{
+    width: 60px;
+    height: 60px;
+  }
+  .liveDemo{
+    width: 500px;
+    height: 500px;
+  }
+  .tittle{
+    
+    font-size: 50px;
+    
   }
 }
