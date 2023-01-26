@@ -1,38 +1,50 @@
 .App {
+  background-image: url("./assets/background.png");
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sectionTitle{
+  font-family: Oswald;
+  color: white;
+  font-size: 50px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sectionDescription{
+  color: #e6c397;
+  font-family: EB Garamond;
+  font-size: 25px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.GithubIcon{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.LinkedInIcon{
+  color: white;
+}
+.GithubIcon:hover {
+  color: black;
+}
+.LinkedInIcon:hover {
+  color: #0a66c2;
+}
+.EmailIcon{
+  color: white;
+}
+.EmailIcon:hover{
+  color: #e6c397;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+@media only screen and (max-width: 800px) {
+
+  .screensOneContinuer{
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .images{
+    width: 280px;
+    height: 280px;
+  }
+  .sectionTitle{
+    font-size: 40px;
+  }
+  .sectionDescription{
+    font-size: 20px;
   }
 }
